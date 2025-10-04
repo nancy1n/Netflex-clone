@@ -1,30 +1,36 @@
-Netflix Clone (Next.js + CSS)
-A fully responsive Netflix-inspired web application built using Next.js and custom CSS. The project recreates the core layout and feel of Netflix — including a dynamic hero section, sign-in page, trending section, feature cards, FAQ area, and footer.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-✨ Features:
+## Getting Started
 
-Modern Next.js architecture with modular components
+First, run the development server:
 
-Netflix-style UI with clean and responsive design
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Custom CSS (no frameworks) for full control over layout and styling
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Hover effects, gradients, and shadows for realistic feel
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Functional navigation using Next.js routing (<Link> components)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Sign-in page with styled form and background overlay
+## Learn More
 
-Built-in language selector (English / Spanish)
+To learn more about Next.js, take a look at the following resources:
 
-🧠 What I Learned:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Structuring a multi-section page with reusable React components
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Styling complex layouts using Flexbox and responsive design
+## Deploy on Vercel
 
-Implementing navigation between pages in Next.js
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Creating visually appealing UIs with simple, clean CSS
-
-Managing assets and background images effectively
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

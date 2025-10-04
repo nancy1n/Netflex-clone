@@ -1,0 +1,331 @@
+body{
+  font-family: "Roboto", "Helvetica Neue", "Segoe UI", "Ubuntu", sans-serif;
+   /* background-image: url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg') !important; */
+background-color: black !important;
+}
+.header{
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding-top: 40px;
+}
+.backimg  {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), 
+  url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media/banner.jpg');
+  background-size: cover;       /* cover entire container */
+  background-position: center;  /* center the image */
+  background-repeat: no-repeat; /* no tiling */
+  min-height: 100vh;            /* full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;             /* optional side padding */
+  color: white;
+}
+ .header h1{
+   font-size:  3.5rem ;
+font-weight: 800;
+ }
+
+.header p{
+  font-size: 1.3rem;
+}
+.para1{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.info_field{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding-top: 70px;
+}
+
+
+.info_field input{
+  padding: 10px 20px ;
+  font-size: 25px;
+  color: white;
+  border-radius: 5px;
+  background-color: #333;
+  border: 2px solid #ccc;
+}
+.info_field button{
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #e50914;
+  font-size: 25px;
+  cursor: pointer;
+}
+.info_field button:hover{
+  background-color:#f6121d; 
+}
+.section2 h1{
+  font-size: 25px;
+  color: white;
+  padding-top: 2%;
+  padding-left: 2.5%;
+  
+}
+
+.card-group {
+  display: flex;       /* layout children in a row */
+  flex-wrap: wrap;     /* allow cards to go to next line if screen is small */
+  gap: 20px;           /* space between cards */
+  justify-content: flex-start; /* align cards to the left */
+  padding: 20px;       /* optional padding around the group */
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 170px;      /* same as image width */
+  height: 290px;     /* same as image height */
+  border-radius: 8px; /* optional rounded corners */
+  overflow: hidden;   /* ensures hover zoom doesn’t overflow */
+  transition: transform 0.3s;
+  border-color: #f6121d;
+}
+
+.section2 .card:hover {
+  transform: scale(1.05); /* card zoom on hover */
+}
+ .card img {
+  width: 100%;     /* fill the card width */
+  height: 100%;    /* fill the card height */
+ object-fit: cover; 
+   display: block;  
+}
+.section3 h1{
+   font-size: 25px;
+  color: white;
+  padding-top: 1%;
+  padding-left: 2.5%;
+}
+
+.section3 .card{
+background: #1e172c;
+color: white;
+height: 400px;
+border-radius: 15px !important; 
+text-align: center;
+padding-bottom: 8%;
+
+}
+
+.section3 p{
+  padding-top: 5%;
+  font-size: 1.1rem;
+}
+.section3 img{
+  width: 100px;
+  height: 100px;
+
+}
+.section3 .card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* horizontal center */
+  justify-content: center; /* vertical center (if you want everything centered) */
+  text-align: center;    /* centers the text */
+  height: 100%; 
+
+}
+.header1 h1{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+   margin: 0;          
+position: absolute;
+top: 16%;
+}
+.header1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.header1 input {
+  padding: 5px 80px;
+ text-align: center;
+
+}
+.footer-links{
+  display: flex;
+ flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  padding: 0;
+  margin: 0 0 20px 0;
+gap: 19px 50px ;
+}
+.footer-links li{
+  flex: 1 1 200px;
+  color: blacks;
+}
+.footer-links li a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 30px ;
+}
+.footer-links li  a:hover{
+text-decoration: underline;
+}
+.footer-lang{
+  font-size: 20px;
+  padding: 10px 30px ;
+  position: relative;
+}
+.footer-lang select{
+  padding: 5px 30px ;
+  background-color: #757575b6;
+
+}
+.lang-box img{
+  position: absolute;
+width: 25px;
+bottom: 30%;
+}
+.footer-country{
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+.footer-note{
+ color: white;
+ line-height: 1.4;
+ margin-left: 10px;
+}
+.footer-title{
+  color: white;
+  font-size: 18px;
+  text-decoration: underline white;
+  margin-left: 19px;
+}
+.faq-item {
+  background-color: #2d2d2d;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.faq-question button {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  padding: 15px;
+  border-top: 1px solid #555;
+  line-height: 1.6;
+}
+h1{
+  color: white;
+}
+.secion1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+width: 100%;
+}
+.secion1 button{
+  color: white;
+  border: none;
+  padding: 10px 30px ;
+background-color: #e50914;
+}
+.secion1 img {
+  width: 150px;
+  height: auto;
+}
+
+.page{
+ background-image:  url('https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media/banner.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+ min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info_field1{
+ display: flex;
+  flex-direction: column;
+gap:20px;
+background-color: rgba(0, 0, 0, 0.75);
+ padding: 150px 30px;
+   box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+position: relative;
+  }
+#email1 , #pass1{
+  background-color: #2d2d2d;
+  padding:10px 50px;
+   font-size: 16px;
+  border-radius: 5px;
+}
+.info_field1 button{
+  padding: 10px 40px;
+  font: 25px;
+  color: white;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+ transition: transform 0.3s;
+}
+.info_field1 h1{
+position: absolute;
+top: 8%;
+}
+.info_field1 :hover{
+  transform: scale(1.1);
+}
+.form-check-label{
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .info_field  input , .info_field1  input {
+    padding: 20px 12px;
+    width: 100%;
+  }
+.info_field  button , .info_field  button {
+  padding: 5px 15px;
+}
+
+  .footer-links {
+    gap: 10px 20px;
+    padding-left: 10px;
+  }
+}
